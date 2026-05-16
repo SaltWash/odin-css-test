@@ -34,6 +34,16 @@ body {
     padding: 50px;
 }
 
+.content-quote {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -137,4 +147,25 @@ body {
     color: #1F2937;
     text-align: center;
     text-wrap: balance;
+}
+
+.inner-quote span {
+    font-family: roboto, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: left;
+    font-style: italic;
+}
+
+.signature span {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.signature {
+    text-align: right;
+    width: 100%;
 }
