@@ -10,6 +10,11 @@ body {
     background-color: #f9faf8;
 }
 
+.container-light.badge {
+    display: flex;
+    justify-content: center;
+}
+
 .container-gray {
     background-color: #e5e7eb;
 }
@@ -32,6 +37,30 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+}
+
+.content-badge {
+    background-color: #3882F6;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 20px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.inner-badge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.button-blue.badge-button {
+    border: 3px solid white;
 }
 
 .content-quote {
@@ -93,7 +122,7 @@ body {
     border-radius: 8px;
     color: #e5e7eb;
     padding: 8px 30px;
-    max-width: 120px;
+    max-width: 150px;
 }
 
 .hero-text {
@@ -168,4 +197,25 @@ body {
 .signature {
     text-align: right;
     width: 100%;
+}
+
+.badge-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+}
+
+.badge-title {
+    font-family: roboto, sans-serif;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.badge-subtext {
+    font-family: roboto, sans-serif;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 500;
 }
